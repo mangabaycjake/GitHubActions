@@ -50,8 +50,8 @@ jobs:
 
   package:
     needs: [build-app, build-db]
-    runs-on: self-hosted
+    runs-on: macos-latest
     steps:
-      - run: echo "Awesome."
+      - run: echo "for mac os."
 
  
